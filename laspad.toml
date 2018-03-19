@@ -1,0 +1,8 @@
+
+[master]
+name            = "Pregame Peace"
+tags            = ["Fix", "must be run on server"]
+autodescription = true
+description     = "README.md"
+preview         = "heiwa.png"
+website         = "https://github.com/Laaas/NS2-PregamePeace"
