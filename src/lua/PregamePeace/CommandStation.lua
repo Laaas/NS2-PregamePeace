@@ -12,7 +12,7 @@ local kLoginAttachPoint = getupvalue(CommandStation.GetUsablePoints, "kLoginAtta
 function CommandStation:GetUsablePoints()
 	local gameinfo = GetGameInfoEntity()
 	if gameinfo:GetGameStarted() then
-		return {self:GetAttachPointOrigin(kLoginAttachPoint)}
+		return {(self:GetAttachPointOrigin(kLoginAttachPoint))}
 	end
 end
 
